@@ -1,0 +1,97 @@
+body > header > h1 {
+    margin: 0px;
+    padding: 0px;
+}
+body > header > h1, body > section > p, nav > ul > li > a, aside > p, footer > p {
+    font-family: monospace;
+    font-size: 100%;
+}
+
+body > header, body > nav {
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+}
+
+body > header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+body > header > h1 {
+    color: purple;
+    text-align: end;
+    font-size: 20pt;
+    
+}
+
+body > section {
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+body > section > p {
+    text-align: left;
+    color: black;
+}
+
+body > nav {
+    width: 15%;
+    margin: 10px;
+    float: left;
+}
+
+body > nav > ul > li {
+    text-align: left;
+    list-style: square;
+    line-height: 200%;
+    padding-left: 10px;
+}
+
+body > nav > ul > li > a:hover {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+body > nav:hover {
+    background-image: linear-gradient(to top left, pink, yellow, pink, purple);
+}
+
+body > aside {
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+body > aside > p {
+    color: purple;
+}
+
+body > footer {
+    background-image: linear-gradient(to top left, pink, yellow, pink, purple);
+    width: 100%;
+    height: 50px;
+}
+
+body > footer > p {
+    color: purple;
+    text-align: center;
+    font-size: 80%;
+    padding-top: 8px;
+}
+
+body > header, body > nav {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: purple;
+}
+
+body > nav, body > footer {
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: purple;
+}

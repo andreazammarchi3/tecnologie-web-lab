@@ -1,0 +1,9 @@
+USABILITY vs USER EXPERIENCE
+
+L'usabilità è una precondizione, cioè un sito web deve essere innanzitutto "usabile", ovvero facile da usare (ed efficiente) per consentire agli utenti di raggiungere i loro scopi.
+Invece, la User Experience si focalizza su come l'utente vive l'interazione con il sito web. L'obiettivo della UX è rendere l'utente "felice" prima, durante e dopo l'utilizzo di tale sito.
+
+L'usabilità risponde alla domanda <<Può l'utente portare a termine tale obiettivo?>>.
+La User Experience, invece, risponde alla domanda <<L'utente ha avuto un'esperienza il più piacevole possibile?>>.
+
+Metaforicamente si può pensare all'usabilità come una scienza e la UX come un'arte.
