@@ -11,11 +11,10 @@ $(document).ready(function() {
     tbody.appendChild(row);
     table.appendChild(tbody);
     $("p:last-child").append("<p>ciao</p>");
-    
+    */
     const h1 = document.createElement("H1");
     const textNode = document.createTextNode("Hello World");
     h1.appendChild(textNode);
-    $(document).appendChild(h1);
-    */
-   alert("funziona");
+    document.body.appendChild(h1);
+    
  });
