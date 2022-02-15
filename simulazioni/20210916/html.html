@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Esercizio HTML - 2021/09/16</title>
+    </head>
+    <body>
+        <table>
+            <caption>Bilancio di Genere: personale al 2020</caption> 
+            <tr>
+                <th scope="col" id="inquadramento">inquadramento</th>
+                <th scope="col" id="personale">personale</th>
+                <th scope="col" id="unita">unit&agrave; di personale</th>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="2" id="donne" headers="inquadramento">donne</th>
+                <th scope="row" id="docenti1" headers="donne personale">docenti</th>
+                <td headers="donne docenti1 unita">1.782</td>
+            </tr>
+            <tr>
+                <th scope="row" id="amministrativi1" headers="donne personale">amministrativi</th>
+                <td headers="donne amministrativi1 unita">1.012</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="2" id="uomini" headers="inquadramento">uomini</th>
+                <th scope="row" id="docenti2" headers="uomini personale">docenti</th>
+                <td headers="uomini docenti2 unita">1.497</td>
+            </tr>
+            <tr>
+                <th scope="row" id="amministrativi2" headers="uomini personale">amministrativi</th>
+                <td headers="uomini amministrativi2 unita">1.246</td>
+            </tr>
+          </table>
+    </body>
+</html>
