@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+}
+
+nav {
+    float: right;
+    width: 20%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgreen;
+}
+
+nav li {
+    line-height: 2em;
+    list-style-type: circle;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+header {
+    width: 70%;
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgreen;
+    color: black;
+    box-shadow: 5px 5px 5px green;
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    color: black;
+    text-align: left;
+    margin: 3% 1%;
+}
+
+footer {
+    width: 70%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgreen;
+    text-align: center;
+    color: darkgreen;
+    font-size: 0.8em;
+    box-shadow: 5px 5px 5px green;
+}
