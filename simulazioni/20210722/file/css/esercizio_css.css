@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    font-size: 100%;
+}
+
+header {
+    border-radius: 5px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 100%;
+}
+
+input[type=text], select, input[type=number], input[type=color], input[type=email] {
+    width: 100%;
+    border-width: 2px;
+    border-color: purple;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 8px 1%;
+    padding: 4px 0.5%;
+}
+
+input[type=reset], input[type=submit] {
+    width: 48%;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+fieldset {
+    padding-right: 5%;
+}
