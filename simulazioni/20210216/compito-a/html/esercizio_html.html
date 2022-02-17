@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Esercizio HTML</title>
+    </head>
+    <body>
+        <section>
+            <h1>Form</h1>
+            <form>
+                <fieldset>
+                    <legend>Anagrafica</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="surname">Cognome:</label>
+                    <input type="text" id="surname" name="surname">
+                    <label for="birth">Anno di nascita:</label>
+                    <input type="number" min="1900" max="2022" id="birth" name="birth">
+                </fieldset>
+                <fieldset>
+                    <legend>Prenotazione</legend>
+                    <label>Tipo di prestazione:</label>
+                    <label for="tampone">tampone</label>
+                    <input type="checkbox" id="tampone" name="tampone">
+                    <label for="sierologico">sierologico</label>
+                    <input type="checkbox" id="sierologico" name="sierologico">
+                    <label for="vaccino">vaccino</label>
+                    <input type="checkbox" id="vaccino" name="vaccino">
+
+                    <label>Luogo:</label>
+                    <label for="farmacia">farmacia</label>
+                    <input type="radio" id="farmacia" name="luogo" value="farmacia">
+                    <label for="medico">medico di famiglia</label>
+                    <input type="radio" id="medico" name="luogo" value="medico">
+                    <label for="ambulatorio">ambulatorio</label>
+                    <input type="radio" id="ambulatorio" name="luogo" value="ambulatorio">
+                    <label for="ospedale">ospedale</label>
+                    <input type="radio" id="ospedale" name="luogo" value="ospedale">
+                </fieldset>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+            </form>
+        </section>
+    </body>
+</html>
